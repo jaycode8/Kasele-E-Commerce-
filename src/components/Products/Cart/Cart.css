@@ -1,0 +1,357 @@
+.bag{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 2%;
+    background: transparent;
+    transform: translateX(800%);
+}
+.empty{
+    text-align: center;
+    color: #fff;
+    transform: translateY(50%);
+}
+.table1{
+    width: 80vw;
+    height: 20px !important;
+    position: relative;
+    border-collapse: collapse;
+    background: green;
+}
+tr{
+    font-family: 'Merienda', cursive;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #ff1616;
+    font-weight: normal;
+    font-size: 20px;
+}
+td{
+    padding: 10px 5px;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cart-info img{
+    width: 60px;
+    height: 50px;
+}
+.textt{
+    padding-right: 50px;
+    height: 40px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.textt h4, h3, #cash{
+    font-size: 15px;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+button{
+    background-color: #25c481;
+    width: 20%;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+#remove{
+    width: unset;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 11px;
+    background: rgb(255, 51, 0);
+}
+.totals{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: green;
+}
+.totals table{
+    border-top: 3px solid #ff1616;
+    width: 40%;
+}
+.totals table tr{
+    width: 100%;
+}
+#ray{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#ray button{
+    width: 50%;
+    margin: 0 10px;
+    font-size: 15px;
+    padding: 4px 0;
+}
+.table2 tr td{
+    font-size: 15px;
+}
+
+
+
+
+/* ================================= Responsivness ============================================== */
+@media screen and (max-width:1170px){
+    .bag{
+        transform: translateX(800%);
+    }
+}
+
+@media screen and (max-width:1070px){
+    .bag{
+        transform: translateX(700%);
+    }
+}
+
+@media screen and (max-width:940px){
+    .table1{
+        width: 90vw;
+    }
+    .bag{
+        transform: translateX(650%);
+    }
+}
+
+@media screen and (max-width:850px){
+    .table1, .totals{
+        width: 85vw;
+    }
+    .bag{
+        transform: translateX(600%);
+    }
+}
+
+@media screen and (max-width:780px){
+    .bag{
+        transform: translateX(550%);
+    }
+}
+
+@media screen and (max-width:740px){
+    .bag{
+        transform: translateX(520%);
+    }
+}
+
+@media screen and (max-width:710px){
+    .table1, .totals{
+        width: 90vw;
+    }
+    .bag{
+        transform: translateX(460%);
+    }
+}
+
+@media screen and (max-width:690px){
+    .bag{
+        transform: translateX(500%);
+    }
+}
+
+@media screen and (max-width:650px){
+    .table1, .totals{
+        width: 95vw;
+    }
+    .bag{
+        transform: translateX(450%);
+    }
+}
+
+@media screen and (max-width:600px){
+    .totals table{
+        width: 80%;
+    }
+    .table1, .totals{
+        width: 97vw;
+    }
+    .bag{
+        transform: translateX(400%);
+    }
+}
+
+@media screen and (max-width:520px){
+    .bag{
+        transform: translateX(380%);
+    }
+}
+
+@media screen and (max-width:490px){
+    .table1, .totals{
+        width: 95vw;
+    }
+    .bag{
+        transform: translateX(320%);
+    }
+    .textt{
+        margin-left: 20px;
+    }
+    .btns{
+        transform: translateY(50%);
+    }
+}
+
+@media screen and (max-width:450px){
+    .bag{
+        transform: translateX(300%);
+    }
+    .cart-info{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .totals table{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:430px){
+    th{
+        font-size: 15px;
+    }
+    td, td h3{
+        font-size: 13px;
+    }
+    .textt button {
+        font-size: 12px;
+    }
+    .textt h4{
+        font-size: 12px;
+    }
+    #ray button{
+        font-size: 12px;
+    }
+    .bag{
+        transform: translateX(270%);
+    }
+}
+
+@media screen and (max-width:400px){
+    .bag{
+        transform: translateX(250%);
+    }
+}
+
+@media screen and (max-width:365px){
+    .textt{
+        height: 40px;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+    #remove {
+        background: transparent;
+        text-decoration: underline;
+        font-size: 12px;
+    }
+    .cart-info{
+        width: 90px;
+        height: 40px;
+    }
+    .textt{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .btns{
+        transform: translateY(0%);
+    }
+    #ray button{
+        width: 40%;
+    }
+    .table2 td{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:360px){
+    .bag{
+        transform: translateX(230%);
+    }
+    /* .cart-info img{
+        width: 10px;
+    } */
+}
+
+@media screen and (max-width:330px){
+    .totals table{
+        width: 100vw;
+    }
+    .bag{
+        transform: translateX(200%);
+    }
+}
+
+@media screen and (max-width:300px){
+    .bag{
+        transform: translateX(170%);
+    }
+    .cart-info{
+        height: auto;
+    }
+    .cart-info img{
+        width: 40px;
+        height: 30px;
+    }
+    .btns{
+        transform: translateY(50%);
+    }
+}
+
+@media screen and (max-width:280px){
+    .bag{
+        transform: translateX(160%);
+    }
+}
+
+@media screen and (max-width:250px){
+    .bag{
+        transform: translateX(140%);
+    }
+    .cart-info{
+        width: 50px;
+    }
+    .textt{
+        transform: translateX(60%);
+    }
+    .cart-info img{
+        width: 30px;
+        height: 20px;
+    }
+    .textt{
+        transform: translateX(40%);
+    }
+}
+
+@media screen and (max-width:230px){
+    .bag{
+        transform: translateX(120%);
+    }
+}
+
+@media screen and (max-width:210px){
+    .textt{
+        transform: translateX(40%);
+    }
+}

@@ -1,0 +1,13 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.App{
+    height: 100vh;
+    width: auto;
+    position: relative;
+    overflow: auto;
+    scroll-snap-type: mandatory;
+    scroll-behavior: smooth;
+    transition: all 3s ease;
+}

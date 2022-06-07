@@ -1,0 +1,129 @@
+.testPage{
+       width: 100%;
+       height: 70vh;
+       background: #ccff;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       padding-top: 20px;
+}
+.testPage h1{
+       font-family: 'Merienda One', cursive;
+}
+.testPage h1:after{
+       content: '';
+       background: red;
+       width: 80%;
+       height: 5px;
+       margin: auto;
+       display: block;
+   }
+.swiper{
+       width: 50%;
+       height: 100%;
+}
+.swiperSlide{
+       width: 100%;
+       height: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+}
+.swiper-button-prev.swiper-button-disabled{
+       transform: translate(-50%);
+}
+.swiper-button-next.swiper-button-disabled{
+       transform: translate(50%);
+}
+.swiper-button-prev{
+       transform: translate(-50%);
+}
+.swiper-button-next{
+       transform: translate(50%);
+}
+.swiper-pagination-bullet-active{
+       width: 35px !important;
+       border-radius: 15px !important;
+}
+
+
+/* ================================= Responsivness ============================================== */
+@media screen and (max-width:1210px){
+       .swiper{
+              width: 60%;
+              height: 90%;
+       }
+}
+
+@media screen and (max-width:1010px){
+       .swiper{
+              width: 70%;
+              height: 70%;
+       }
+       .testPage{
+              height: 60vh;
+       }
+}
+
+@media screen and (max-width:870px){
+       .swiper{
+              width: 80%;
+              height: 100%;
+       }
+       .testPage{
+              height: 60vh;
+       }
+}
+
+@media screen and (max-width:750px){
+       .swiper{
+              width: 90%;
+       }
+}
+
+@media screen and (max-width:650px){
+       .swiper{
+              width: 98%;
+       }
+}
+
+@media screen and (max-width:590px){
+       .swiper{
+              width: 90%;
+       }
+       .testPage{
+              height: 70vh;
+       }
+}
+
+@media screen and (max-width:520px){
+       .swiper{
+              width: 100%;
+       }
+       .swiper-pagination-bullet-active{
+              width: 30px !important;
+       }
+}
+
+@media screen and (max-width:460px){
+       .swiper{
+              justify-content: space-between;
+       }
+       .testPage{
+              height: 65vh;
+       }
+}
+
+@media screen and (max-width:360px){
+       .testPage{
+              height: 90vh;
+       }
+       .swiper-pagination-bullet-active{
+              width: 25px !important;
+       }
+}
+
+@media screen and (max-width:300px){
+
+}

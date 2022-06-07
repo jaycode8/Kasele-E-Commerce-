@@ -1,0 +1,300 @@
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    padding: 20px 0;
+    background: #ccff;
+}
+.container h1{
+    font-family: 'Merienda One', cursive;
+}
+.container h1::after{
+    content: '';
+    background: red;
+    width: 80%;
+    height: 5px;
+    display: block;
+    margin: auto;
+}
+.cards{
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 20px;
+    margin: 50px 0;
+}
+.card{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 #555;
+}
+.card #name{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Sofia', cursive;
+}
+.card .img{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card .img img{
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+.card .details{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.card .details #inner{
+    width: 60%;
+    height: 100%;
+    float: right;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card .details button, .card .details h4{
+    width: 100%;
+    height: 100%;
+    border-radius: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: #fff;
+}
+.card .details h4{
+    background: #fff;
+    color: #555;
+    font-family: 'Handlee', cursive;
+}
+.card .details button{
+    font-family: 'Oxygen', cursive;
+}
+
+.cartIcon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    font-family: 'Merienda', cursive;
+}
+#cart{
+    color: black;
+    font-size: 20px;
+    width: 50px;
+    cursor: pointer;
+}
+#hey{
+    width: 50%;
+    height: 150px;
+    background: black;
+    right: -100%;
+    top: 80px;
+    z-index: 1000;
+    position: fixed;
+    transition: all 2s;
+}
+#hey.activeCart{
+    right: 35%;
+}
+#hey i{
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+#hey #empty{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(50%);
+    position: relative;
+}
+#hey p{
+    color: #fff;
+}
+/* #hey section{
+    position: relative;
+    width: 10% !important;
+    transform: translateX(100%);
+} */
+.cartIcon span{
+    float: right;
+    right: 6px;
+    top: 8px;
+    position: relative;
+}
+
+
+/* ================================= Responsivness ============================================== */
+@media screen and (max-width:1010px){
+    .cards{
+        width: 90%;
+    }
+    .card{
+        height: 280px;
+    }
+}
+
+@media screen and (max-width:950px){
+    .card{
+        height: 250px;
+    }
+    .card .details #inner{
+        width: 80%;
+        height: 70%;
+    }
+    .card .details #inner button{
+        font-size: 12px;
+    }
+    #hey{
+        width: 80%;
+    }
+    #hey.activeCart{
+        right: 3%;
+    }
+}
+
+@media screen and (max-width:860px){
+    .cards{
+        gap: 10px;
+        width: 95%;
+    }
+    .card{
+        height: 240px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .cards{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media screen and (max-width:780px){
+    #hey{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:690px){
+    #hey{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width:560px){
+    .cards{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .cartIcon{
+        top: -5px;
+        z-index: 50;
+    }
+    #cart{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:470px){
+    .cartIcon{
+        top: -2px;
+        font-size: 12px;
+    }
+    #cart{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:450px){
+    .card{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:380px){
+    .cards{
+        gap: 10px 0;
+    }
+    .card{
+        height: 150px;
+        width: 90%;
+    }
+    .card .img{
+        width: 60%;
+    }
+    .card .details #inner button{
+        font-size: 10px;
+    }
+    .card #name h3, .card .details #inner h4{
+        font-size: 12px;
+    }
+    .cartIcon{
+        top: 3px;
+        right: 0px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .card{
+        height: 200px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:310px){
+    .cards{
+        gap: 10px -20px;
+    }
+    .card .details #inner{
+        width: 100%;
+    }
+    .cartIcon{
+        right: 5px;
+    }
+}
+
+
+@media screen and (max-width:280px){
+    .cards{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card{
+        height: 250px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .cartIcon{
+        top: 8px;
+        right: 5px;
+    }
+}

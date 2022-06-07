@@ -1,0 +1,152 @@
+.userCard{
+  background: #fff;
+  border-radius: 20px;
+  width: 250px;
+  height: 350px;
+  position: relative;
+  margin: 0 10px;
+}
+.userCard::before{
+  content: '';
+  position: absolute;
+  height: 42%;
+  width: 100%;
+  background: #7d2ae8;
+  border-radius: 20px 20px 0 0;
+}
+.userCard .content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+.userCard .img{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  padding: 3px;
+  background: #7d2ae8;
+  z-index: 1;
+}
+.userCard .img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  cursor: pointer;
+}
+.userCard .content .media-icons{
+  position: absolute;
+  float: right;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.media-icons .social{
+  margin-top: 20px;
+  color: #fff;
+}
+.media-icons .social:nth-child(1){
+  margin-top: 0px;
+}
+.name-profession{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 15px 0;
+}
+.name-profession .name{
+  font-size: 25px;
+  font-weight: 1000;
+}
+.name-profession {
+  font-family: 'Sofia', cursive;
+}
+.theText{
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Darker Grotesque', sans-serif;
+  margin-top: -10px;
+}
+.rating{
+  margin: 10px;
+}
+
+/* ================================= Responsivness ============================================== */
+@media screen and (max-width:590px){
+  .userCard{
+    width: 200px;
+    height: 300px;
+  }
+  .userCard::before{
+    height: 37%;
+  }
+    .userCard .img{
+      width: 100px;
+      height: 100px;
+    }
+    .media-icons .social{
+      margin-top: 10px;
+      font-size: 12px;
+    }
+}
+
+@media screen and (max-width:460px){
+  .userCard{
+    width: 180px;
+    height: 280px;
+  }
+  .userCard .img{
+    width: 80px;
+    height: 80px;
+  }
+  .media-icons .social{
+    margin-top: 10px;
+    font-size: 10px;
+  }
+  .userCard::before{
+    height: 36%;
+  }
+  .userCard .content{
+    padding: 20px;
+  }
+  .name-profession .name{
+    font-size: 17px;
+  }
+  .name-profession .profession{
+    font-size: 15px;
+  }
+  .theText{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width:460px){
+  .userCard{
+    width: 150px;
+    height: 260px;
+  }
+  .userCard .content .media-icons{
+    right: 10px;
+  }
+  .userCard::before{
+    height: 34%;
+  }
+}
+
+@media screen and (max-width:380px){
+  .userCard{
+    width: 140px;
+    height: 260px;
+  }
+}
+
+/* @media screen and (max-width:350px){
+  .userCard{
+
+  }
+} */

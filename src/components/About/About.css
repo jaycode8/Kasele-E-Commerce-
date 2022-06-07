@@ -1,0 +1,199 @@
+.about{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #ccff;
+}
+.about h1{
+    padding-top: 20px;
+    font-family: 'Merienda One', cursive;
+}
+.about h1:after{
+    content: '';
+    background: red;
+    width: 80%;
+    height: 5px;
+    margin: auto;
+    display: block;
+}
+.about .featureProducts{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.featureProducts section{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+section .fcard{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 0 10px #585858;
+}
+.fcard img{
+    width: 180px;
+    cursor: pointer;
+}
+.fcard .innertext{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.innertext h4{
+    font-family: 'Sofia', cursive;
+}
+.innertext h3{
+    text-transform: uppercase;
+    font-family: 'Handlee', cursive;
+}
+.innertext button{
+    width: 150px;
+    padding: 2px;
+    border-radius: 5px;
+    font-family: 'Oxygen', cursive;
+}
+.fcard .secondone{
+    align-items: flex-start;
+}
+
+
+/* ================================= Responsivness ============================================== */
+@media screen and (max-width:950px){
+    .about{
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .featureProducts section{
+        height: 260px;
+    }
+}
+
+@media screen and (max-width:900px){
+    .featureProducts section{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:865px){
+    section .fcard{
+        width: 380px;
+        height: 190px;
+    }
+    .innertext h3{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:825px){
+    section .fcard{
+        width: 360px;
+        height: 180px;
+    }
+    .fcard img{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width:780px){
+    section .fcard{
+        width: 340px;
+        height: 160px;
+    }
+    .fcard img{
+        width: 130px;
+    }
+}
+
+@media screen and (max-width:730px){
+    section .fcard{
+        width: 330px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:700px){
+    section .fcard{
+        width: 300px;
+        height: 150px;
+    }
+    .fcard img{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .about{
+        height: auto;
+    }
+    .featureProducts section{
+        flex-direction: column;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:360px){
+    .about{
+        height: 90vh !important;
+        justify-content: space-around;
+    }
+    .featureProducts{
+        height: 90% !important;
+    }
+}
+
+@media screen and (max-width:330px){
+    section .fcard{
+        width: 280px;
+        height: 130px;
+    }
+    .fcard img{
+        width: 90px;
+    }
+    .innertext h3{
+        font-size: 13px;
+    }
+    .innertext button{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:300px){
+    section .fcard{
+        width: 250px;
+        height: 110px;
+    }
+    .fcard img{
+        width: 60px;
+    }
+    .fcard .innertext{
+        width: 50%;
+    }
+    .innertext button{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:280px){
+    .featureProducts section{
+        padding: 0 30px;
+    }
+}
