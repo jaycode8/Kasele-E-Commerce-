@@ -7,7 +7,7 @@
 
 
 
-   <img src="https://img.badgesize.io/https://github.com/jaycode8/Kasele-E-Commerce-.git"  />
+   <img src="https://img.badgesize.io/https://github.com/jaycode8/Kasele-E-Commerce-.git" style="plastic"  />
 </div>
 
 
