@@ -4,13 +4,13 @@
 <img src="https://raw.githubusercontent.com/jaycode8/Personal-Web-Portfolio/main/src/Components/About/Projects/img/funiture.png" />
 
 
-### Prerequisites 
+#### Prerequisites 
   
  Before you begin, ensure you have met the following requirements: 
   
  * [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system. 
   
- ### Run Locally 
+ #### Run Locally 
   
  To run **Kasele-E-Commerce** locally, run this command on your git bash: 
   
