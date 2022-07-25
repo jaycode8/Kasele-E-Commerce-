@@ -3,6 +3,7 @@
 <div align="center">
    <h1>KASELE WEB-APP DESIGN</h1>
    <p>A fully responsive react js website with e-commerce features</p>
+   <a href="http://kasele.rf.gd/"><strong>➥ LiveDemo</strong></a>
 </div>
 
 #### Demo Screenshot
@@ -16,7 +17,7 @@
    <img src="https://img.shields.io/github/stars/jaycode8/Kasele-E-Commerce-?style=social" />
 </div>
 
-<a href="http://kasele.rf.gd/"><strong>➥ LiveDemo</strong></a>
+
 
 #### Prerequisites 
   
