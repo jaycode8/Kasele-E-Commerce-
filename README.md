@@ -8,6 +8,7 @@
 
 
    <img src="https://img.badgesize.io/https://github.com/jaycode8/Kasele-E-Commerce-.git" style="plastic"  />
+   <img src="https://img.shields.io/jaycode8/Kasele-E-Commerce-.git  ?style=social)
 </div>
 
 
