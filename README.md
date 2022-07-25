@@ -11,7 +11,7 @@
    <img src="https://img.badgesize.io/https://github.com/jaycode8/Kasele-E-Commerce-.git" style="social" />
 </div>
 
-<a href="http://kasele.rf.gd/"><strong>➥ LivDemo</strong></a>
+<a href="http://kasele.rf.gd/"><strong>➥ LiveDemo</strong></a>
 
 #### Prerequisites 
   
