@@ -7,7 +7,7 @@
    ![ GitHub repo size ] (https://img.shields.io/github/repo-size/codewithsadee/portfolio) 
    ![GitHub stars] (https://img.shields.io/github/stars/codewithsadee/portfolio?style=social) 
    ![GitHub forks] (https://img.shields.io/github/forks/codewithsadee/portfolio?style=social)
-   <img src="https://img.badgesize.io/:filepath[.svg|png|jpg][?compression=gzip|brotli][&label=string][&max=string][&softmax=string] />
+   <img src="https://img.badgesize.io/https://github.com/jaycode8/Kasele-E-Commerce-.git  />
 </div>
 
 
