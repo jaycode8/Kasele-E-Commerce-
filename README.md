@@ -1,7 +1,7 @@
 ### http://kasele.rf.gd/
 
 <div align="center">
-   ***KASELE WEB-APP DESIGN***
+   <h1>KASELE WEB-APP DESIGN</h1>
    <p>A fully responsive react js website with e-commerce features</p>
 </div>
 
