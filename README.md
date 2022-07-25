@@ -3,7 +3,7 @@
 #### screenshot
 <img src="https://raw.githubusercontent.com/jaycode8/Personal-Web-Portfolio/main/src/Components/About/Projects/img/funiture.png" />
 
-Prerequisites
+### Prerequisites
 Before you begin, ensure you have met the following requirements:
 
 Git must be installed on your operating system.
@@ -12,7 +12,7 @@ To run Portfolio locally, run this command on your git bash:
 
 Linux and macOS:
 
-sudo git clone 
+sudo git clone https://github.com/jaycode8/Kasele-E-Commerce-.git
 Windows:
 
-git clone 
+git clone https://github.com/jaycode8/Kasele-E-Commerce-.git
