@@ -4,7 +4,7 @@
 <img src="https://raw.githubusercontent.com/jaycode8/Personal-Web-Portfolio/main/src/Components/About/Projects/img/funiture.png" />
 
 <div align="center">
-   ![GitHub repo size] (https://img.shields.io/github/repo-size/codewithsadee/portfolio) 
+   ![ GitHub repo size ] (https://img.shields.io/github/repo-size/codewithsadee/portfolio) 
    ![GitHub stars] (https://img.shields.io/github/stars/codewithsadee/portfolio?style=social) 
    ![GitHub forks] (https://img.shields.io/github/forks/codewithsadee/portfolio?style=social)
 </div>
