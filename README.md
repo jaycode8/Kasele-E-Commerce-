@@ -13,6 +13,6 @@ To run Portfolio locally, run this command on your git bash:
 Linux and macOS:
 
 sudo git clone https://github.com/jaycode8/Kasele-E-Commerce-.git
-Windows:
 
+Windows :
 git clone https://github.com/jaycode8/Kasele-E-Commerce-.git
