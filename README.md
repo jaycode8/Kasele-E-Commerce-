@@ -8,7 +8,7 @@
 
 
    <img src="https://img.badgesize.io/https://github.com/jaycode8/Kasele-E-Commerce-.git" style="plastic"  />
-   <img src="https://img.badgesize.io/https://github.com/jaycode8/Kasele-E-Commerce-.git" style="social" />
+   <img src="https://img.shields.io/github/stars/ankidroid/Anki-Android?style=social" />
 </div>
 
 <a href="http://kasele.rf.gd/"><strong>➥ LiveDemo</strong></a>
