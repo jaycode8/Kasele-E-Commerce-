@@ -26,7 +26,7 @@
  git clone https://github.com/jaycode8/Kasele-E-Commerce-.git
  ```
 
-### License 
+### License 
   
  This project is **free to use** and does not contains any license.
 
