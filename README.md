@@ -22,8 +22,10 @@
 #### Prerequisites 
   
  Before you begin, ensure you have met the following requirements: 
+ <p>The following packages must be installed in your system.</p>
   
- * [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system. 
+ * [Git](https://git-scm.com/downloads "Download Git") 
+ * [Node js](https://nodejs.org/en/download/)
   
  #### Run Locally 
   
@@ -40,6 +42,17 @@
  ```bash 
  git clone https://github.com/jaycode8/Kasele-E-Commerce-.git
  ```
+
+Run the web app in the terminal or cmd with
+ ```
+ npm start
+ ```
+
+
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
 ### License 
   
