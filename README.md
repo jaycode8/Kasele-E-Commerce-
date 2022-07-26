@@ -27,6 +27,9 @@
  * [Git](https://git-scm.com/downloads "Download Git") 
  * [Node js](https://nodejs.org/en/download/)
   
+ #### Run Online
+ Hit the LiveDemo button above
+  
  #### Run Locally 
   
  To run **Kasele-E-Commerce** locally, run this command on your git bash: 
