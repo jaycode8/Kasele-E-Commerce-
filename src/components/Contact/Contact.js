@@ -25,7 +25,7 @@ const Contact = () => {
                                           <input type="name" placeholder="user name" required />
                                           <input type="email" placeholder="email address" required />
                                           <textarea placeholder="leave message" required></textarea>
-                                          <input type="submit" value="send" />
+                                          <a href='mailto: jamesmumo443@gmail.com'><input type="submit" value="send" /></a>
                                    </form>
                             </div>
                      </div>

@@ -229,7 +229,6 @@ ul li:hover::after{
         text-align: center;
     }
     #nav.navshow{
-        /* top: 35px; */
         left: 10px;
     }
     .image{

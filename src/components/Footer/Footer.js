@@ -17,7 +17,7 @@ const Footer = () => {
                                    </div>
                             </section>
                             <section className='copyright'>
-                                   <p>&copy;<span> {new Date().getFullYear()}</span> <a href='#'>JayTech</a> | All Rights Reserved</p>
+                                   <p>&copy;<span> {new Date().getFullYear()}</span> <a href='https://james-mumo.000webhostapp.com/' target='_blank'>JayTech</a> | All Rights Reserved</p>
                             </section>
                      </footer>
               </div>

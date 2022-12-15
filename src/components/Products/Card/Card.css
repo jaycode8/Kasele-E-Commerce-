@@ -138,11 +138,6 @@
 #hey p{
     color: #fff;
 }
-/* #hey section{
-    position: relative;
-    width: 10% !important;
-    transform: translateX(100%);
-} */
 .cartIcon span{
     float: right;
     right: 6px;
@@ -259,6 +254,7 @@
         right: 0px;
         font-size: 12px;
     }
+    
 }
 
 @media screen and (max-width:350px){

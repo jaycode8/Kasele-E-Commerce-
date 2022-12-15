@@ -67,10 +67,11 @@ input::placeholder, textarea::placeholder{
 input[type='submit'] {
 	width: 90px;
 	position: relative;
-       color: #fff;
+       color: #121212;
+	font-weight: 1000;
 	cursor: pointer;
 	border-radius: 0px;
-	background: red;
+	background: yellow;
 }
 
 .conta-card .float-card {
@@ -81,7 +82,7 @@ input[type='submit'] {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: red;
+	background: yellow;
 }
 
 .float-card .details {
@@ -101,9 +102,8 @@ input[type='submit'] {
 	flex-direction: column;
 }
 .float-card .details section a{
-	color: #fff;
+	color: #121212;
 	font-size: 20px;
-	opacity: 0.7;
 	transition: all .5s;
 }
 .float-card .details section a:hover{
@@ -201,7 +201,7 @@ input[type='submit'] {
 	.conta-card{
 		width: 350px;
 		height: 370px;
-		transform: translateX(0%);
+		transform: translateX(-2%);
 		margin-right: 0px;
 	}
 	.conta-card .float-card{
@@ -220,8 +220,8 @@ input[type='submit'] {
 	.inner-card p{
 		font-size: 14px;
 	}
-	input,textarea{
-		width: 100%;
+	form input,textarea{
+		width: 90%;
 	}
 	.float-card .details section{
 		flex-direction: row;

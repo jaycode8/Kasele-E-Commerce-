@@ -1,6 +1,6 @@
 .testPage{
        width: 100%;
-       height: 70vh;
+       height: 80vh;
        background: #ccff;
        display: flex;
        align-items: center;
@@ -117,7 +117,7 @@
 
 @media screen and (max-width:360px){
        .testPage{
-              height: 90vh;
+              height: 390px;
        }
        .swiper-pagination-bullet-active{
               width: 25px !important;
