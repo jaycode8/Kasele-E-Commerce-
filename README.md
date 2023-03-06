@@ -3,7 +3,7 @@
 <div align="center">
    <h1>KASELE WEB-APP DESIGN</h1>
    <p>A fully responsive react js website with e-commerce features</p>
-   <a href="http://kasele.rf.gd/"><strong>➥ LiveDemo</strong></a>
+   <a href="https://kasele-1e995.web.app/"><strong>➥ LiveDemo</strong></a>
 </div>
 
 #### Demo Screenshot
