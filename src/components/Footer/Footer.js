@@ -17,7 +17,8 @@ const Footer = () => {
                                    </div>
                             </section>
                             <section className='copyright'>
-                                   <p>&copy;<span> {new Date().getFullYear()}</span> <a href='https://james-mumo.000webhostapp.com/' target='_blank'>JayTech</a> | All Rights Reserved</p>
+                                <p>&copy;<span> {new Date().getFullYear()}</span> <a href='/'>Kasele Furnitures</a> | All Rights Reserved</p>
+                                <p>made with <span className='love_emoji'>❤️</span> by <a href='https://jamesmumo-cf8e5.web.app/' target='_blank'>Jaymoh</a></p>
                             </section>
                      </footer>
               </div>
